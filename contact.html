@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - GreenTech</title>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contactez-nous</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <form action="php/contact-form.php" method="POST">
+      <label>Nom :</label><br>
+      <input type="text" name="name" required><br>
+
+      <label>Email :</label><br>
+      <input type="email" name="email" required><br>
+
+      <label>Message :</label><br>
+      <textarea name="message" required></textarea><br>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GreenTech Solutions</p>
+  </footer>
+</body>
+</html>
